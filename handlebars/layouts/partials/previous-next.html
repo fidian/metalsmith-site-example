@@ -1,0 +1,25 @@
+<!-- Make this into columns when on a small screen.
+    Do not print the next/previous links. -->
+<div class="D(f) Jc(sb) Fxd(c)--s D(n)--p">
+<div>
+
+{{#if ancestry.prevSibling}}
+
+<a href="{{link.to ancestry.prevSibling}}">Previous: {{ancestry.prevSibling.title}}</a>
+
+{{/if}}
+
+</div>
+<div>
+    <a href="..">Up to Event List</a>
+</div>
+<div>
+
+{{#if ancestry.nextSibling}}
+
+<a href="{{link.to ancestry.nextSibling}}">Next: {{ancestry.nextSibling.title}}</a>
+
+{{/if}}
+
+</div>
+</div>

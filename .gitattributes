@@ -1,0 +1,2 @@
+# By default, make text files use LF (*nix newlines) even on Windows
+* text=auto eol=lf

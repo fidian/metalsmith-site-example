@@ -1,0 +1,15 @@
+{{>header}}
+
+{{>previous-next}}
+
+        <h1>{{title}}</h1>
+
+<!-- You must use triple braces for contents because it was converted to HTML
+    already and we don't want the HTML escaping to be applied. -->
+{{{contents}}}
+
+{{>previous-next}}
+
+        {{>footer}}
+    </body>
+</html>
