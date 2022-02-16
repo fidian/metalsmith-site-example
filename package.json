@@ -9,7 +9,7 @@
     "dependencies": {
         "@babel/preset-env": "^7.16.11",
         "@fidian/metalsmith-clean-css": "^6.2.2",
-        "@fidian/metalsmith-site": "^1.2.1",
+        "@fidian/metalsmith-site": "^1.2.2",
         "@fidian/metalsmith-sugar": "^1.2.1",
         "clean-css": "^5.2.4",
         "metalsmith-babel": "^5.1.0",
