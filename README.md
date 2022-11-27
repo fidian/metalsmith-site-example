@@ -6,12 +6,6 @@ It can be difficult when trying to set up a new site. This sample leverages seve
 This repository is an example that you are free to modify and use to your heart's content. Features and files are heavily commented in order to explain what they do and how they can affect the build.
 
 
-Atomic CSS
-----------
-
-The generated HTML files are scanned for Atomic CSS rules. When found, they are collected and `css/atomizer.css` is generated. For this processing to happen, either `atomizer.js` or `atomizer.json` needs to exist in the root of the project, like it does in this one.
-
-
 Metadata
 --------
 

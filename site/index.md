@@ -1,6 +1,6 @@
 ---
 title: Example Site
-layout: main-index
+layout: main
 ---
 
 # Welcome to an example site!

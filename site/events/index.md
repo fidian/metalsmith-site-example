@@ -4,7 +4,7 @@ title: Upcoming Events
 
 {{#ancestry.children}}
 
-## {{eventDate}}: [{{title}}]({{link.from ancestry.parent}})
+<h2>{{eventDate}}: <a href="{{link.from ancestry.parent}}">{{title}}</a></h2>
 
 {{summary}}
 

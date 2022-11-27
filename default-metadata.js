@@ -5,7 +5,7 @@ const buildDate = new Date();
 const metadata = {
     buildDate: buildDate.toISOString(),
     buildYear: buildDate.getFullYear(),
-    layout: 'layout', // Sets a default page layout - handlebars/layouts/layout.html
+    layout: 'layout', // Sets a default page layout - layouts/layout-before.html and layouts/layout-after.html
     liveReload: !!process.env.LIVE_RELOAD
 };
 
@@ -13,8 +13,7 @@ module.exports = metadata;
 
 /* In addition to the above metadata, @fidian/metalsmith-site will add or use the following additional properties.
  *
- * layout: If defined, the content of Markdown files will be wrapped in this
- * layout file. It's a Mustache-enabled template.
+ * layout: If defined, Markdown files will have the layout wrapped around the content. Mustache runs after the layouts.
  *
  * link: A function to help create links between page objects. Pass it a reference to a page. This function's added by metalsmith-relative-links - see https://github.com/tests-always-included/metalsmith-relative-links for additional usage information.
  *
