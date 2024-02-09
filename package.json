@@ -7,15 +7,17 @@
         "start": "SERVE=true LIVE_RELOAD=true node metalsmith.js"
     },
     "dependencies": {
-        "@babel/preset-env": "^7.20.2",
+        "@babel/preset-env": "^7.23.9",
         "@fidian/metalsmith-clean-css": "^6.2.2",
-        "@fidian/metalsmith-site": "^2.0.0",
+        "@fidian/metalsmith-serve": "0.2.0",
+        "@fidian/metalsmith-site": "2.2.2",
         "@fidian/metalsmith-sugar": "^1.3.0",
-        "clean-css": "^5.3.1",
+        "clean-css": "^5.3.3",
+        "dlv": "^1.1.3",
         "metalsmith-babel": "^5.1.0",
         "metalsmith-html-minifier": "^4.0.1",
         "metalsmith-plugin-kit": "^1.2.2",
-        "metalsmith-uglify": "^2.4.1",
+        "metalsmith-uglify": "^2.4.2",
         "wkhtmltopdf": "^0.4.0"
     }
 }
