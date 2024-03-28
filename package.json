@@ -7,10 +7,10 @@
         "start": "SERVE=true LIVE_RELOAD=true node metalsmith.js"
     },
     "dependencies": {
-        "@babel/preset-env": "^7.23.9",
+        "@babel/preset-env": "^7.24.3",
         "@fidian/metalsmith-clean-css": "^6.2.2",
-        "@fidian/metalsmith-serve": "0.2.0",
-        "@fidian/metalsmith-site": "2.2.2",
+        "@fidian/metalsmith-serve": "0.2.1",
+        "@fidian/metalsmith-site": "2.2.3",
         "@fidian/metalsmith-sugar": "^1.3.0",
         "clean-css": "^5.3.3",
         "dlv": "^1.1.3",
